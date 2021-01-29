@@ -24,3 +24,6 @@ brews:
   - tap:
       owner: dbirks
       name: ssmsh
+    description: A shell for the EC2 Parameter Store
+    homepage: https://github.com/bwhaley/ssmsh
+    license: MIT
