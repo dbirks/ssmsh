@@ -30,3 +30,7 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+brews:
+  - tap:
+      owner: dbirks
+      name: ssmsh
