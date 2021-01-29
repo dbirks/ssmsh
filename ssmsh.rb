@@ -5,21 +5,21 @@
 class Ssmsh < Formula
   desc "A shell for the EC2 Parameter Store"
   homepage "https://github.com/bwhaley/ssmsh"
-  version "0.0.3"
+  version "0.0.5"
   license "MIT"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/dbirks/ssmsh/releases/download/v0.0.3/ssmsh_0.0.3_darwin_amd64.tar.gz"
-    sha256 "a4eb5a7fe20b74106d366a14edfa8f8565756846e6c78b6b79aa09c87cd9e9b7"
+    url "https://github.com/dbirks/ssmsh/releases/download/v0.0.5/ssmsh_0.0.5_darwin_amd64.tar.gz"
+    sha256 "4b584768aabd8888d573547f8bbd6ae98ffa57f9a6c7eb21df988e7b31d72128"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/dbirks/ssmsh/releases/download/v0.0.3/ssmsh_0.0.3_linux_amd64.tar.gz"
-    sha256 "bdc61e99d8c2adb53df95809fef06b0b9e01dae5c3035ecc51c57c008298a0f7"
+    url "https://github.com/dbirks/ssmsh/releases/download/v0.0.5/ssmsh_0.0.5_linux_amd64.tar.gz"
+    sha256 "ef39e303fe11991e11aeda96bbfc397a9f8f086889249760a2e6887ab4d36f99"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/dbirks/ssmsh/releases/download/v0.0.3/ssmsh_0.0.3_linux_arm64.tar.gz"
-    sha256 "288e10c87d29a4c9ba3bc8e22544ecaf2496bc721f18f29d2d7896a9094f7ed5"
+    url "https://github.com/dbirks/ssmsh/releases/download/v0.0.5/ssmsh_0.0.5_linux_arm64.tar.gz"
+    sha256 "393d900a38359768be1860800c672617b1dbf34e0ad981ea25696a956db13af2"
   end
 
   def install
