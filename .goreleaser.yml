@@ -14,8 +14,6 @@ builds:
       - darwin
 archives:
   - format: binary
-checksum:
-  name_template: 'checksums.txt'
 changelog:
   sort: asc
 brews:
