@@ -23,10 +23,11 @@ https://github.com/bwhaley/ssmsh/releases
 Add the tap and install with:
 
 ```bash
-brew tap ...
+brew tap bwhaley/ssmsh https://github.com/bwhaley/ssmsh
+brew install ssmsh
 ```
 
-# Nix
+### Nix
 
 ```bash
 nix-env -i ssmsh
